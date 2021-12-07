@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: Pentesters Guide Vol1
-author: The Jupyter Book Community
+author: J.H. Adams
 logo: logo.png
 
 # Force re-execution of notebooks on each build.
