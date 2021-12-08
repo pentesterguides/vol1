@@ -3,6 +3,14 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
+parts:
+  - caption: Linux
+    chapters:
+    - linux/information
+    - linux/shells
+    - linux/troubleshooting
+  - caption: Windows
+    chapters:
+    - windows/information
+    - windows/shells
+    - windows/troubleshooting
