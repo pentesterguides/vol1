@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>&lt;no title&gt; &#8212; Pentesters Guide Vol1</title>
+    <title>Information Gathering &#8212; Pentesters Guide Vol1</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet">
   <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -52,7 +52,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="&lt;no title&gt;" href="shells.html" />
-    <link rel="prev" title="Welcome The Pentester Guide Volume 1" href="../intro.html" />
+    <link rel="prev" title="The Pentester’s Guide to the Galaxy (Volume 1)" href="../intro.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -92,10 +92,23 @@
         <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../intro.html">
-   Welcome The Pentester Guide Volume 1
+   The Pentester’s Guide to the Galaxy (Volume 1)
   </a>
  </li>
 </ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Linux
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Information Gathering
+  </a>
+ </li>
+</ul>
+
     </div>
 </nav> <!-- To handle the deprecated key -->
 
@@ -180,7 +193,19 @@
                 <i class="fas fa-list"></i> Contents
             </div>
             <nav id="bd-toc-nav" aria-label="Page">
-                <ul class="simple visible nav section-nav flex-column">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#process-information">
+   Process Information
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#process-lists">
+     Process Lists
+    </a>
+   </li>
+  </ul>
+ </li>
 </ul>
 
             </nav>
@@ -192,7 +217,38 @@
         
               <div>
                 
-  
+  <div class="tex2jax_ignore mathjax_ignore section" id="information-gathering">
+<h1>Information Gathering<a class="headerlink" href="#information-gathering" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="process-information">
+<h2>Process Information<a class="headerlink" href="#process-information" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="process-lists">
+<h3>Process Lists<a class="headerlink" href="#process-lists" title="Permalink to this headline">¶</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">ps</span> <span class="n">aux</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">  File</span><span class="nn"> &quot;/tmp/ipykernel_1704/480313683.py&quot;</span><span class="gt">, line </span><span class="mi">1</span>
+    <span class="n">ps</span> <span class="n">aux</span>
+         <span class="o">^</span>
+<span class="ne">SyntaxError</span>: invalid syntax
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span>   <span class="n">PPID</span>     <span class="n">PID</span>    <span class="n">PGID</span>     <span class="n">SID</span> <span class="n">TTY</span>        <span class="n">TPGID</span> <span class="n">STAT</span>   <span class="n">UID</span>   <span class="n">TIME</span> <span class="n">COMMAND</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
     <script type="text/x-thebe-config">
     {
         requestKernel: true,
@@ -222,7 +278,7 @@
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Welcome The Pentester Guide Volume 1</p>
+            <p class="prev-next-title">The Pentester’s Guide to the Galaxy (Volume 1)</p>
         </div>
     </a>
     <a class='right-next' id="next-link" href="shells.html" title="next page">
