@@ -6,11 +6,11 @@ root: intro
 parts:
   - caption: Linux
     chapters:
-    - linux/information
-    - linux/shells
-    - linux/troubleshooting
+    - file: linux/information
+    - file: linux/shells
+    - file: linux/troubleshooting
   - caption: Windows
     chapters:
-    - windows/information
-    - windows/shells
-    - windows/troubleshooting
+    - file: windows/information
+    - file: windows/shells
+    - file: windows/troubleshooting
